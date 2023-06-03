@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'Lora';
+    src:url(../fonts/Lora-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'Lora';
+    src:url(../fonts/Lora-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+@font-face{
+    font-family: 'Oxygen';
+    src:url(../fonts/Oxygen-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'Oxygen';
+    src:url(../fonts/Oxygen-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+@font-face{
+    font-family: 'Roboto';
+    src:url(../fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+

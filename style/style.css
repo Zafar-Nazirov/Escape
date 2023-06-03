@@ -1,0 +1,341 @@
+@import "./fonts.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+}
+
+.container {
+    max-width: 970px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+    align-items: center;
+}
+
+.head {
+    background: url(../img/headerbg.png) center center / cover;
+    height: 700px;
+}
+
+.header-nav__list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav__link a {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-low-nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 0;
+}
+
+.header-low-nav__link a {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #768088;
+}
+
+.main-post__images {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.header__title {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.header__text {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    margin-bottom: 30px;
+}
+
+.header__btn {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #dd783f;
+    border-radius: 3px;
+    padding: 12px 31px;
+}
+
+.main {
+    background: #f7f7f7;
+    padding-bottom: 110px;
+}
+
+.main-post__inner-content {
+    position: relative;
+}
+
+.main-post__absolute {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.main-post__mat-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.main-post__text-mat {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-post__text {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-post__subtitle {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.main-recent__sec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+}
+
+.main-recent__cards {
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    background: #FCFCFC;
+
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #dedede;
+    border-radius: 0px;
+    width: 188px;
+    margin-bottom: 30px;
+    padding-bottom: 16px;
+    padding-top: 60px;
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    color: #2e2e2e;
+}
+
+.main-recent__text {
+    width: 295px;
+    padding: 0px 13px;
+    padding-bottom: 13px;
+    font-family: "Oxygen";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7a7a7a;
+}
+
+.main-recent__icon-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 13px;
+    margin-top: auto;
+    border-top: 1px solid #efefef;
+}
+
+.main-recent__text-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-recent__subtitle {
+    padding: 14px 13px;
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+}
+
+
+.main-recent__name {
+    font-family: 'Oxygen';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 35px;
+    color: #999999;
+}
+
+.main-recent__date {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    color: #999999;
+}
+
+
+.footer {
+    background: url(../img/IMAGE\ \(10\).png) center center / cover;
+
+}
+
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 378px;
+}
+
+.footer__title {
+    border-bottom: 1px solid #DEDEDE;
+    width: 188px;
+    text-align: center;
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+    font-family: 'Oxygen';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+
+.footer__form {
+    display: flex;
+}
+
+.footer__input {
+    padding: 18px 208px 18px 35px;
+    border: none;
+    outline: none;
+}
+
+.footer__btn {
+    padding: 18px 43px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F8F8F8;
+}
+
+
+.footer__list {
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer__end {
+    padding: 28px 0;
+    background: rgba(35, 47, 56, 0.6);
+}
+
+
+.footer__link a {
+    font-family: 'Oxygen';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-post__btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 7px 9px;
+    background: #DD783F;
+    border-radius: 2px;
+    font-family: 'Oxygen';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
